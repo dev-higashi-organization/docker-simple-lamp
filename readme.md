@@ -14,7 +14,7 @@ gitおよびdockerが動くwin機という想定
 
 ```bash
 git clone git@github.com:dev-higashi-organization/docker-simple-lamp.git
-cd lamp
+cd docker-simple-lamp
 docker-compose build # そこそこ時間がかかります
 docker-compose up -d # コンテナの立ち上げ
 ```
@@ -32,7 +32,7 @@ exit # Dockerから出る
 ### 初回以降
 
 ```bash
-cd lamp
+cd docker-simple-lamp
 docker-compose up -d # コンテナの立ち上げ
 ```
 
