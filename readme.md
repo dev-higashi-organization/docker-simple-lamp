@@ -10,6 +10,15 @@ gitおよびdockerが動くwin機という想定
 
 ## 使い方
 
+### ファイル構造
+
+```
+├─apache-php
+├─concretecms # 本プロジェクトに含んでいません
+├─img
+└─mysql
+```
+
 ### 初回
 
 ```bash
@@ -71,3 +80,4 @@ Enter password:
 
 DBクライアントから接続する場合ポートを'3307'で指定してください。
 ![example_heidisql](img/01_example_heidisql.png)
+
